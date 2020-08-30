@@ -8,6 +8,7 @@ public class Test : MonoBehaviour
     void Start()
     {
         // 要素数5の配列を初期化する
+        //要素数5の逆順に出力する
         int[] points = new int[5];
 
         // 配列の各要素に値を代入する
@@ -35,6 +36,7 @@ public class Test : MonoBehaviour
 public class MyTest : MonoBehaviour
 {
     void Start()
+
     {
 
         int[] array = new int[5];
@@ -61,32 +63,4 @@ public class MyTest : MonoBehaviour
     }
 }
 
-public class MyTest2 : MonoBehaviour
-{
-    void Start()
-    {
-
-        int[] array = new int[5];
-
-        array[0] = 10;
-        array[1] = 20;
-        array[2] = 30;
-        array[3] = 40;
-        array[4] = 50;
-        for (int a = 0; a < 5; a++)
-        {
-            Debug.Log(array[a]);
-        }
-        for (int b = 4; b >- 0; b--)
-        {
-            Debug.Log(array[b]);
-        }
-
-    }
-
-    void Update()
-    {
-
-    }
-}
 
