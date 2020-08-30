@@ -11,11 +11,11 @@ public class MyTest2 : MonoBehaviour
         int[] array = new int[6];
 
 
-        array[0] = 50;
-        array[1] = 10;
-        array[2] = 20;
-        array[3] = 30;
-        array[4] = 40;
+        array[0] = 10;
+        array[1] = 20;
+        array[2] = 30;
+        array[3] = 40;
+        array[4] = 50;
         for (int a = 4; a < 0; a++)
         {
             Debug.Log(array[a]);
