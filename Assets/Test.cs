@@ -38,7 +38,7 @@ public class MyTest : MonoBehaviour
     void Start()
 
     {
-
+        // 配列の要素をすべて表示する
         int[] array = new int[5];
 
         array[0] = 10;
@@ -50,7 +50,8 @@ public class MyTest : MonoBehaviour
         {
             Debug.Log(array[a]);
         }
-        for (int b = 4; b < 5; b--)
+        // 配列の要素をすべて表示する
+        for (int b = 0; b < 5; b--)
         {
             Debug.Log(array[b]);
         }

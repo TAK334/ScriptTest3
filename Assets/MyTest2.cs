@@ -6,8 +6,9 @@ public class MyTest2 : MonoBehaviour
     void Start()
 
     {
+        // 配列の要素をすべて表示する
         //要素数5を逆順に出力する
-        int[] array = new int[5];
+        int[] array = new int[6];
 
 
         array[0] = 50;
@@ -19,8 +20,8 @@ public class MyTest2 : MonoBehaviour
         {
             Debug.Log(array[a]);
         }
-
-        for (int b = 4; b > -0; b--)
+        // 配列の要素をすべて表示する
+        for  (int b = 4; b >= 0; b--)
         {
             Debug.Log(array[b]);
         }
