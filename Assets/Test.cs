@@ -11,17 +11,13 @@ public class Test : MonoBehaviour
         int[] points = new int[5];
 
         // 配列の各要素に値を代入する
-        points[0] = 10;
-        points[1] = 20;
-        points[2] = 30;
-        points[3] = 40;
-        points[4] = 50;
+        points[0] = 1;
+        points[1] = 2;
+        points[2] = 3;
+        points[3] = 4;
+        points[4] = 5;
 
         // 配列の要素をすべて表示する
-
-
-    private static void NewMethod(int[] points)
-    {
         for (int i = 0; i < 5; i++)
         {
             Debug.Log(points[i]);
@@ -35,21 +31,62 @@ public class Test : MonoBehaviour
     }
 }
 
-// Use this for initialization
-Private private void Start()
+
+public class MyTest : MonoBehaviour
 {
-    // 5回処理を繰り返す
-    for (int i = 0; i < 5; i++)
+    void Start()
     {
-        Debug.Log(i);
+
+        int[] array = new int[5];
+
+        array[0] = 10;
+        array[1] = 20;
+        array[2] = 30;
+        array[3] = 40;
+        array[4] = 50;
+        for (int a = 0; a < 5; a++)
+        {
+            Debug.Log(array[a]);
+        }
+        for (int b = 4; b < 5; b--)
+        {
+            Debug.Log(array[b]);
+        }
+
+    }
+
+    void Update()
+    {
+
     }
 }
 
+public class MyTest2 : MonoBehaviour
+{
+    void Start()
+    {
 
-    
+        int[] array = new int[5];
 
-  
+        array[0] = 10;
+        array[1] = 20;
+        array[2] = 30;
+        array[3] = 40;
+        array[4] = 50;
+        for (int a = 0; a < 5; a++)
+        {
+            Debug.Log(array[a]);
+        }
+        for (int b = 4; b >- 5; b--)
+        {
+            Debug.Log(array[b]);
+        }
 
+    }
 
+    void Update()
+    {
 
+    }
+}
 
