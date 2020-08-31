@@ -1,14 +1,15 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class Test : MonoBehaviour
+public class MyTest : MonoBehaviour
 {
 
     // Use this for initialization
     void Start()
     {
         // 要素数5の配列を初期化する
-        //要素数5の逆順に出力する
+
         int[] points = new int[5];
 
         // 配列の各要素に値を代入する
@@ -25,11 +26,4 @@ public class Test : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }
-
-
